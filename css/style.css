@@ -13,16 +13,18 @@ header .navbar .container .nav-link:hover {
 }
 
 header .navbar {
-  background-color: #ede6db;
+  background-color: #d4d0c9;
 }
 header .navbar .container .navbar-brand {
-  color: #1a3c40;
+  color: #404849;
   font-family: "Times New Roman", Times, serif;
-  font-size: 18px;
+  font-size: 36px;
 }
 header .navbar .container .nav-link {
-  color: #1a3c40;
-  background-color: #ede6db;
+  border-top-style: double;
+  border-bottom-style: double;
+  color: #404849;
+  background-color: #d4d0c9;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
@@ -31,51 +33,70 @@ body {
 }
 body main .titulo {
   font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
+  font-size: 26px;
 }
 body main .container {
-  background-color: #ede6db;
+  background-color: #d4d0c9;
 }
 body main .texto {
   font-family: "Times New Roman", Times, serif;
-  font-size: 10px;
+  font-size: 15px;
   color: black;
 }
 body main .botonContact .btn {
-  color: #1a3c40;
-  background-color: #ede6db;
+  color: #404849;
+  background-color: #d4d0c9;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
 footer {
+  border-top-style: double;
   background-color: #d4d0c9;
 }
 footer .footerText {
   font-family: "Times New Roman", Times, serif;
-  font-size: 10px;
+  font-size: 18px;
   color: black;
 }
 
-main .container .tituloSecundario {
-  color: #1a3c40;
+main .container .titulo {
+  color: #404849;
   font-family: "Times New Roman", Times, serif;
-  font-size: 14px;
+  font-size: 26px;
 }
-main .container .text-start {
+main .container .texto {
   font-family: "Times New Roman", Times, serif;
-  font-size: 10px;
+  font-size: 15px;
   color: black;
 }
-/* GALERIA*/
-#galria .container {
+
+main .titulo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+}
+main .contenidoResume {
+  background-color: rgb(209, 195, 195);
+}
+main .contenidoResume h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+main .contenidoResume .texto {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  color: black;
+}
+/* GALERIA DE TRABAJOS*/
+#galeria {
   margin: 0 !important;
   padding: 25px;
 }
-#galeria .imgGaleria {
+.imgGaleria {
   width: 100%;
   height: 350px;
 }
-#galeria .imgGaleria:hover {
+.imgGaleria:hover {
   border: 5px solid #f7f7f7;
 }
+
 /*# sourceMappingURL=style.css.map */

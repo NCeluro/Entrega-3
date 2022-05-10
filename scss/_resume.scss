@@ -1,0 +1,15 @@
+main {
+  .titulo {
+    @include tituloStyle(26px);
+  }
+  .contenidoResume {
+    background-color: rgb(209, 195, 195);
+    h4 {
+      @include tituloStyle(20px);
+    }
+    .texto {
+      @include tituloStyle(15px);
+      color: map-get($colores, color3);
+    }
+  }
+}

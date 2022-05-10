@@ -2,13 +2,13 @@ body {
   background-color: $color-header;
   main {
     .titulo {
-      @include tituloStyle(16px);
+      @include tituloStyle(26px);
     }
     .container {
       background-color: map-get($colores, color4);
     }
     .texto {
-      @include tituloStyle(10px);
+      @include tituloStyle(15px);
       color: map-get($colores, color3);
     }
     .botonContact {

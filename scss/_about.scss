@@ -1,11 +1,11 @@
 main {
   .container {
-    .tituloSecundario {
+    .titulo {
       color: map-get($colores, color1);
-      @include tituloStyle(14px);
+      @include tituloStyle(26px);
     }
-    .text-start {
-      @include tituloStyle(10px);
+    .texto {
+      @include tituloStyle(15px);
       color: map-get($colores, color3);
     }
   }
