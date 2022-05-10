@@ -5,8 +5,8 @@ main {
       @include tituloStyle(14px);
     }
     .text-start {
+      @include tituloStyle(10px);
       color: map-get($colores, color3);
-      font-family: "Courier New", Courier, monospace;
     }
   }
 }

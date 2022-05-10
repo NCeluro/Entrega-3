@@ -1,19 +1,18 @@
 header {
   .navbar {
-    background-color: $color-header;
+    background-color: map-get($colores, color4);
     .container {
       .navbar-brand {
         color: $color-titulo;
-        font-size: 1.5rem;
+        @include tituloStyle(18px);
       }
       .nav-link {
-        color: $color-titulo;
-        font-size: 1rem;
+        color: map-get($colores, color1);
+        background-color: map-get($colores, color4);
+        @include tituloStyle(18px);
       }
       .nav-link:hover {
-        font-size: 1rem;
-        background-color: black;
-        color: beige;
+        @extend %botonHover;
       }
     }
   }

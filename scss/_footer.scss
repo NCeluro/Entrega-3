@@ -1,6 +1,7 @@
 footer {
-  background-color: $color-header;
+  background-color: map-get($colores, color2);
   .footerText {
-    color: $color-texto;
+    @include tituloStyle(10px);
+    color: map-get($colores, color3);
   }
 }
