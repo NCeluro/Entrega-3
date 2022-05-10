@@ -1,0 +1,20 @@
+header {
+  .navbar {
+    background-color: $color-header;
+    .container {
+      .navbar-brand {
+        color: $color-titulo;
+        font-size: 1.5rem;
+      }
+      .nav-link {
+        color: $color-titulo;
+        font-size: 1rem;
+      }
+      .nav-link:hover {
+        font-size: 1rem;
+        background-color: black;
+        color: beige;
+      }
+    }
+  }
+}

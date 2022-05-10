@@ -1,0 +1,12 @@
+main {
+  .container {
+    .tituloSecundario {
+      color: map-get($colores, color1);
+      @include tituloStyle(14px);
+    }
+    .text-start {
+      color: map-get($colores, color3);
+      font-family: "Courier New", Courier, monospace;
+    }
+  }
+}
