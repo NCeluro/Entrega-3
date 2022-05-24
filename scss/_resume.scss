@@ -1,14 +1,14 @@
 main {
-  .titulo {
-    @include tituloStyle(26px);
+  #tituloREsumen {
+    @include tituloStyle(35px);
   }
   .contenidoResume {
     background-color: rgb(209, 195, 195);
     h4 {
-      @include tituloStyle(20px);
+      @include tituloStyle(35px);
     }
     .texto {
-      @include tituloStyle(15px);
+      @include tituloStyle(25px);
       color: map-get($colores, color3);
     }
   }

@@ -2,11 +2,14 @@ main {
   .container {
     .titulo {
       color: map-get($colores, color1);
-      @include tituloStyle(26px);
+      @include tituloStyle(35px);
     }
-    .texto {
-      @include tituloStyle(15px);
-      color: map-get($colores, color3);
+    .contenidoAbout {
+      background-color: rgb(209, 195, 195);
+      .texto {
+        @include tituloStyle(25px);
+        color: map-get($colores, color3);
+      }
     }
   }
 }
